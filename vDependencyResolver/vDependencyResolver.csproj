@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Version>1.2.0</Version>
+    <Authors>Vikas Sharma</Authors>
+    <Company>Vikas Sharma</Company>
+    <Description>MEF based dependency resolver for ASP.NET core projects.
+For more details please visit : https://github.com/vikas0sharma/vDependencyResolver</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+    <PackageReference Include="System.ComponentModel.Composition" Version="4.5.0" />
+  </ItemGroup>
+  
+</Project>
